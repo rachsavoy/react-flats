@@ -1,16 +1,16 @@
-@import "cards";
+@import "card";
 
 body {
   background-color: white;
 }
 
-#root {
+.container {
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
-#root > div {
+.container > div {
   margin-top: 20px;
   display: flex;
 }
